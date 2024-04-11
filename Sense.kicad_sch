@@ -11,6 +11,212 @@
 		(company "B. Redpath")
 	)
 	(lib_symbols
+		(symbol "Conn_01x03_Socket_1"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J2"
+				(at 1.27 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Callistated 2"
+				(at 1.27 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -654,23 +860,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -8.382 11.176 0)
+			(property "Reference" "U4"
+				(at 2.1941 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "H3LIS100DLTR"
+				(at 2.032 -14.986 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y"
 				(at 0 0 0)
 				(effects
 					(font
@@ -679,7 +887,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2106080035_STMicroelectronics-H3LIS100DLTR_C2655068.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -689,6 +897,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I2C" "0x18"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C2655068"
 				(at 0 0 0)
 				(effects
 					(font
@@ -846,6 +1072,42 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -3.81 180)
+					(length 3.81)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -6.35 180)
+					(length 3.81)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2053,6 +2315,10 @@
 		(uuid "1493efa2-687d-4e33-8557-5398877d6a6a")
 	)
 	(no_connect
+		(at 246.38 133.35)
+		(uuid "36544423-13f9-4f20-8bc8-38ba623485a8")
+	)
+	(no_connect
 		(at 232.41 49.53)
 		(uuid "401cd13b-a4d7-4c7a-bc3c-45f2b046252d")
 	)
@@ -2063,6 +2329,10 @@
 	(no_connect
 		(at 245.11 125.73)
 		(uuid "bb750fd9-b987-4292-bdb8-0aec1173fbd6")
+	)
+	(no_connect
+		(at 246.38 135.89)
+		(uuid "c8cfec24-e71c-442e-9c98-36f51645e2f7")
 	)
 	(no_connect
 		(at 123.19 129.54)
@@ -3409,6 +3679,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x03_Socket_1")
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 128.27 129.54 0)
 		(unit 1)
@@ -3463,13 +3734,13 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "1bb01876-7b99-41bf-b37a-299d8ccec3f4")
 		)
-		(pin "1"
+		(pin "6"
 			(uuid "99f91a0a-b419-4bf2-a762-1e9360dd3c7d")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "68e9f039-7164-46a5-a42c-39dbfb7d4bd1")
 		)
 		(instances
@@ -3980,6 +4251,12 @@
 		)
 		(pin "11"
 			(uuid "e241e495-534f-4217-b357-f45c9b1ba4c2")
+		)
+		(pin "2"
+			(uuid "729fd8dc-becd-4e8a-ada4-1ddb489b0806")
+		)
+		(pin "3"
+			(uuid "0cb183e6-5187-47ca-af1e-bfa3e754ff5a")
 		)
 		(instances
 			(project "Sense"
