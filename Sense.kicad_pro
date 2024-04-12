@@ -493,9 +493,9 @@
       "plot": "Manufacture/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Sense.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "Sense.wrl"
     },
     "page_layout_descr_file": ""
   },
