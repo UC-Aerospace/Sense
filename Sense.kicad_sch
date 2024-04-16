@@ -6,9 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "MicroSense")
-		(date "2024-04-10")
+		(date "2024-04-17")
 		(rev "C")
-		(company "B. Redpath")
+		(company "UC Aerospace")
+		(comment 1 "Reviewed: K. Adlington")
+		(comment 2 "Drawn: B. Redpath")
 	)
 	(lib_symbols
 		(symbol "Conn_01x03_Socket_1"
@@ -3134,7 +3136,7 @@
 		)
 		(uuid "e40988c1-f66b-4d70-95ba-c09a48e14fd6")
 	)
-	(text "I2C 0x3C/0x3D"
+	(text "I2C 0x3C/0x3D (R/W)"
 		(exclude_from_sim no)
 		(at 222.504 89.408 0)
 		(effects
