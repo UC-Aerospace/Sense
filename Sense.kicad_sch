@@ -4147,7 +4147,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4d5b1237-8d3e-40b7-9b55-1b8428474ec4")
 		(property "Reference" "U4"
 			(at 235.8741 142.24 0)
